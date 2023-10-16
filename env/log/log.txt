@@ -1,0 +1,268 @@
+2023-09-26 14:21:02,613  INFO [main] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 14:21:02,866 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:02,899 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:02,899  INFO [Druid-ConnectionPool-Create-846063400] (DruidAbstractDataSource.java:1865) - {dataSource-1} failContinuous is true
+2023-09-26 14:21:03,451 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:03,978 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:04,506 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:05,046 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:05,581 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:06,112 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:06,648 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:07,181 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:07,713 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:08,258 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:08,790 ERROR [Druid-ConnectionPool-Create-846063400] (DruidDataSource.java:2837) - create connection SQLException, url: jdbc:mysql://localhost:3306/env?useSeverPrepStmts=true, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user '${env}'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1682)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1774)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2835)
+2023-09-26 14:21:26,728  INFO [main] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 14:23:40,031  INFO [main] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 14:26:50,083  INFO [main] (TestLogger.java:14) - 测试日志
+2023-09-26 14:39:04,368  INFO [main] (TestLogger.java:14) - 测试日志
+2023-09-26 14:39:17,355  INFO [main] (TestLogger.java:14) - 测试日志
+2023-09-26 14:41:01,608 DEBUG [main] (TestLogger.java:14) - debug日志
+2023-09-26 14:41:01,610  INFO [main] (TestLogger.java:15) - info日志
+2023-09-26 14:41:01,610  WARN [main] (TestLogger.java:16) - warin日志
+2023-09-26 14:41:01,610 ERROR [main] (TestLogger.java:17) - error日志
+2023-09-26 14:41:01,610 FATAL [main] (TestLogger.java:18) - fatal日志
+2023-09-26 14:42:24,950  INFO [main] (TestLogger.java:17) - info日志
+2023-09-26 14:42:24,951  WARN [main] (TestLogger.java:18) - warin日志
+2023-09-26 14:42:24,951 ERROR [main] (TestLogger.java:19) - error日志
+2023-09-26 14:42:24,951 FATAL [main] (TestLogger.java:20) - fatal日志
+2023-09-26 14:42:42,707  WARN [main] (TestLogger.java:18) - warin日志
+2023-09-26 14:42:42,708 ERROR [main] (TestLogger.java:19) - error日志
+2023-09-26 14:42:42,708 FATAL [main] (TestLogger.java:20) - fatal日志
+2023-09-26 14:42:59,832 DEBUG [main] (TestLogger.java:16) - debug日志
+2023-09-26 14:42:59,833  INFO [main] (TestLogger.java:17) - info日志
+2023-09-26 14:42:59,833  WARN [main] (TestLogger.java:18) - warin日志
+2023-09-26 14:42:59,833 ERROR [main] (TestLogger.java:19) - error日志
+2023-09-26 14:42:59,833 FATAL [main] (TestLogger.java:20) - fatal日志
+2023-09-26 14:43:24,363 DEBUG [main] (TestLogger.java:16) - debug日志
+2023-09-26 14:43:24,364  INFO [main] (TestLogger.java:17) - info日志
+2023-09-26 14:43:24,364  WARN [main] (TestLogger.java:18) - warin日志
+2023-09-26 14:43:24,365 ERROR [main] (TestLogger.java:19) - error日志
+2023-09-26 14:43:24,365 FATAL [main] (TestLogger.java:20) - fatal日志
+2023-09-26 14:48:44,635 DEBUG [main] (TestLogger.java:16) - debug日志
+2023-09-26 14:48:44,637  INFO [main] (TestLogger.java:17) - info日志
+2023-09-26 14:48:44,637  WARN [main] (TestLogger.java:18) - warin日志
+2023-09-26 14:48:44,637 ERROR [main] (TestLogger.java:19) - error日志
+2023-09-26 14:48:44,637 FATAL [main] (TestLogger.java:20) - fatal日志
+2023-09-26 14:49:31,872 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 14:49:31,873  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 14:49:31,873  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 14:49:31,874 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 14:49:31,874 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 14:52:14,174 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 14:52:14,175  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 14:52:14,175  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 14:52:14,176 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 14:52:14,176 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 14:52:39,765 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 14:52:39,766  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 14:52:39,766  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 14:52:39,766 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 14:52:39,766 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 14:52:57,107 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 14:52:57,109  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 14:52:57,109  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 14:52:57,109 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 14:52:57,109 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 14:53:04,315 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 14:53:04,316  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 14:53:04,316  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 14:53:04,316 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 14:53:04,316 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 15:02:40,676 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 15:02:40,678  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 15:02:40,678  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 15:02:40,678 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 15:02:40,678 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 15:02:48,414 DEBUG [main] (TestLogger.java:17) - debug日志
+2023-09-26 15:02:48,415  INFO [main] (TestLogger.java:18) - info日志
+2023-09-26 15:02:48,415  WARN [main] (TestLogger.java:19) - warin日志
+2023-09-26 15:02:48,415 ERROR [main] (TestLogger.java:20) - error日志
+2023-09-26 15:02:48,415 FATAL [main] (TestLogger.java:21) - fatal日志
+2023-09-26 15:27:17,253  INFO [main] (ReceiveImpl.java:33) - 服务器启动
+2023-09-26 15:32:35,879  INFO [main] (ReceiveImpl.java:33) - 服务器 9999 启动
+2023-09-26 15:32:46,275  INFO [main] (SendImpl.java:30) - 客户端 9999 启动
+2023-09-26 15:32:47,744 DEBUG [pool-1-thread-1] (ReceiveImpl.java:76) - 服务端接收数据106866
+2023-09-26 15:32:47,838  INFO [pool-1-thread-1] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 15:32:53,329 DEBUG [pool-1-thread-1] (DBStoreImpl.java:99) - 5584
+2023-09-26 15:34:14,658  INFO [main] (ReceiveImpl.java:33) - 服务器 9999 启动
+2023-09-26 15:34:19,518  INFO [main] (SendImpl.java:30) - 客户端 9999 启动
+2023-09-26 15:34:20,927 DEBUG [pool-1-thread-1] (ReceiveImpl.java:76) - 服务端接收数据106866
+2023-09-26 15:34:21,026  INFO [pool-1-thread-1] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 15:34:26,374 DEBUG [pool-1-thread-1] (DBStoreImpl.java:98) - 5446
+2023-09-26 15:44:31,901  INFO [main] (ReceiveImpl.java:37) - 服务器 9999 启动
+2023-09-26 15:46:51,371  INFO [main] (ReceiveImpl.java:35) - 服务器 9999 启动
+2023-09-26 16:10:36,294  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动
+2023-09-26 16:11:40,197  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动
+2023-09-26 16:13:04,491  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动
+2023-09-26 16:13:09,631  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-26 16:13:11,063 DEBUG [pool-1-thread-1] (ReceiveImpl.java:80) - 服务端接收数据106866
+2023-09-26 16:13:11,160  INFO [pool-1-thread-1] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-26 16:13:16,811 DEBUG [pool-1-thread-1] (DBStoreImpl.java:98) - 5747
+2023-09-27 09:27:39,424  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动
+2023-09-27 09:27:45,849 ERROR [main] (GatherImpl.java:102) - 采集失败
+2023-09-27 09:27:45,857  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:30:42,573  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:30:42,606 DEBUG [pool-1-thread-2] (ReceiveImpl.java:80) - 服务端接收数据1000
+2023-09-27 09:30:42,718  INFO [pool-1-thread-2] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-27 09:30:43,198 DEBUG [pool-1-thread-2] (DBStoreImpl.java:98) - 591
+2023-09-27 09:31:40,236  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:31:40,240 DEBUG [pool-1-thread-3] (ReceiveImpl.java:80) - 服务端接收数据0
+2023-09-27 09:32:47,434 ERROR [main] (GatherImpl.java:102) - 采集失败
+2023-09-27 09:32:47,443  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:34:44,143 ERROR [main] (GatherImpl.java:102) - 采集失败
+2023-09-27 09:34:44,150  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:35:06,237 ERROR [main] (GatherImpl.java:104) - 采集失败
+2023-09-27 09:35:06,243  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:35:15,329  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动
+2023-09-27 09:35:17,813 ERROR [main] (GatherImpl.java:104) - 采集失败
+2023-09-27 09:35:17,819  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:35:38,425 ERROR [main] (GatherImpl.java:104) - 采集失败
+2023-09-27 09:35:38,432  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:37:12,092  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:37:12,133 DEBUG [pool-1-thread-3] (ReceiveImpl.java:80) - 服务端接收数据1006
+2023-09-27 09:37:12,240  INFO [pool-1-thread-3] (DruidDataSource.java:975) - {dataSource-1} inited
+2023-09-27 09:37:12,724 DEBUG [pool-1-thread-3] (DBStoreImpl.java:98) - 590
+2023-09-27 09:37:26,419  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:37:26,422 DEBUG [pool-1-thread-4] (ReceiveImpl.java:80) - 服务端接收数据0
+2023-09-27 09:37:45,148  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:37:45,153 DEBUG [pool-1-thread-5] (ReceiveImpl.java:80) - 服务端接收数据2
+2023-09-27 09:37:45,156 DEBUG [pool-1-thread-5] (DBStoreImpl.java:98) - 3
+2023-09-27 09:38:07,803  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:38:07,809 DEBUG [pool-1-thread-1] (ReceiveImpl.java:80) - 服务端接收数据10
+2023-09-27 09:38:07,813 DEBUG [pool-1-thread-1] (DBStoreImpl.java:98) - 4
+2023-09-27 09:42:56,551  INFO [main] (SendImpl.java:32) - 客户端 9999 启动
+2023-09-27 09:42:56,557 DEBUG [pool-1-thread-2] (ReceiveImpl.java:80) - 服务端接收数据2
+2023-09-27 09:42:56,567 DEBUG [pool-1-thread-2] (DBStoreImpl.java:98) - 10
+2023-09-27 10:25:22,925  INFO [main] (ReceiveImpl.java:36) - 服务器 9999 启动

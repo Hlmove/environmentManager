@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--xml: 1.开头标签 2.有且仅有1个根标签-->
+<!DOCTYPE teachers[
+        <!ELEMENT teachers (teacher)*>
+        <!ELEMENT teacher (id,name,gender)>
+        <!ELEMENT id   (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT gender  (#PCDATA)>
+        ]>
+<!--3个老师 每个老师班级 姓名 性别 属性|子标签上-->
+<teachers>
+<!--    <teacher name="" gender="" class=""></teacher>-->
+    <teacher>
+        <id>jd2212</id>
+        <name>tom</name>
+        <gender>man</gender>
+        <!-- ctrl+shift+/ -->
+        <!--   ctrl+/     -->
+<!--        <message>if salary &lt;  &amp; 1000 then</message>-->
+<!--        <a><![CDATA[-->
+<!--            < > = &-->
+<!--        ]]></a>-->
+<!--        <hello><![CDATA[&amp;]]></hello>-->
+    </teacher>
+    <teacher>
+        <id>1</id>
+        <name>lucy</name>
+        <gender>woman</gender>
+    </teacher>
+</teachers>
